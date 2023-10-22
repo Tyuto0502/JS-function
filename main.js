@@ -1,15 +1,15 @@
 //関数宣言
-function showAlert() {
-  alert("アラート表示練習")
+function getText() {
+  return "関数式練習";
 }
-showAlert();
+console.log(getText());
 
 
 //関数式
-var getText = function() {
-  return "関数式練習";
-}
-console.log(getText);
+var showAlert = function() {
+  alert("アラート表示練習")
+};
+showAlert();
 
 
 /*
